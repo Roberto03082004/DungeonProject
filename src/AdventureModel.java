@@ -23,13 +23,13 @@ public class AdventureModel {
             waters[i] = new Water();
 
 
-        things[0] = new Thing("Gold", "A gold is hidden in this room");
-        things[1] = new Thing("Dragon", "A dragon is taking care of room");
+        things[0] = new Thing("Gold", "Gold is hidden in this room");
+        things[1] = new Thing("Dragon", "A dragon is in the room");
         things[2] = new Thing("Banner", "Banner is pasted outside the wall");
-        things[3] = new Thing("Food",   "Food for whole people in the room");
-        things[4] = new Thing("Army", "An army to protect room");
+        things[3] = new Thing("Food",   "Food in the room");
+        things[4] = new Thing("Army", "Army protecting room");
         things[5] = new Thing("Boat", "A boat to sail over water");
-        things[6] = new Thing("Dragon Glass", "An Sword to shoot Enemy");
+        things[6] = new Thing("Dragon Glass", "Sword to shoot enemies");
 
 
         rooms[0] = new Room("Iron Bank","Iron Bank contains 2 Golds and pick up items command");
